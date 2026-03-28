@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — Cadastro de Usuários</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page page--login">
+  <main class="card">
+    <h1 class="card__title">Acesso</h1>
+    <p class="card__subtitle">Entre com seu e-mail e senha para continuar.</p>
+    <form class="form" action="#" onsubmit="return false;">
+      <label class="form__label" for="email">E-mail</label>
+      <input class="form__input" type="email" id="email" name="email" autocomplete="username" placeholder="seu@email.com">
+
+      <label class="form__label" for="senha">Senha</label>
+      <input class="form__input" type="password" id="senha" name="senha" autocomplete="current-password" placeholder="••••••••">
+
+      <button type="button" class="btn btn--primary" id="btnAcessar">Acessar</button>
+    </form>
+  </main>
+  <script src="js/controller.js"></script>
+  <script>
+    document.getElementById('btnAcessar').addEventListener('click', acessar);
+    document.getElementById('senha').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') acessar();
+    });
+  </script>
+</body>
+</html>
