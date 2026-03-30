@@ -1,4 +1,4 @@
-# login-cad
+# Sistema de Gerenciamento de Usuários
 
 Aplicação web para **cadastrar, listar, editar e excluir** usuários (nome, CPF opcional e e-mail). A tela de login valida e-mail e senha e redireciona para o cadastro. O **servidor Node (Express)** expõe a API e grava os dados em `data/usuarios.json`.
 
