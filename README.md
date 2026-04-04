@@ -1,5 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 # 👤 Sistema de Gerenciamento de Usuários
-
+=======
+# Sistema de Gerenciamento de Usuários
+>>>>>>> 5dd2cc203de5622182e31f5f6f2a81c32277ecf4
+=======
+# Sistema de Gerenciamento de Usuários
+>>>>>>> 5dd2cc203de5622182e31f5f6f2a81c32277ecf4
 Aplicação web para **cadastrar, listar, editar e excluir** usuários. Inclui tela de login e painel de gerenciamento com validação client-side e server-side. O **servidor Node.js (Express)** expõe uma API REST e persiste os dados em JSON.
 
 ## 📁 Estrutura do Projeto
